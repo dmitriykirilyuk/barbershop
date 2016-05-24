@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Барбершоп Форма Лог-ин</title>
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body class="modal-show">
+    <div class="modal-content">
+      <div class="modal-content-close">закрыть</div>
+      <h2 class="modal-content-title">Личный кабинет</h2>
+      <p>Введите пожалуйста свой логин и пароль.</p>
+      <form class="login-form" action="/echo" method="post">
+        <input type="text" class="icon-user" name="login" placeholder="Логин" required>
+        <input type="password" class="icon-password" name="password" placeholder="Пароль" required>
+        <input type="checkbox" name="remember" id="remember-me">
+        <label for="remember-me">Запомните меня</label>
+        <a href="#" class="restore">Я забыл пароль</a>
+        <button type="submit" class="btn">Войти</button>
+      </form>
+    </div>
+  </body>
+</html>
